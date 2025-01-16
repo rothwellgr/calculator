@@ -1,0 +1,62 @@
+.align {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    width: 300px;
+}
+
+.display {
+    border: solid cyan 3px;
+    background-color: cyan;
+    display: grid;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    height: 80px;
+    font-size: 55px;
+    text-align: right;
+    align-content: center;
+    font-family: Courier, "Courier New", monospace;
+    text-shadow: 1px 1px 1px;
+}
+
+.column {
+    border: solid 3px;
+    border-color: cyan;
+    display: grid;
+    grid-template-columns: 75% repeat(1, 1fr);
+    grid-gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+.orange-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: darkorange;
+    padding: 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.yellow-panel {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #FBEC5D;
+    padding: 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    box-shadow: 3px 3px 5px;
+}
+
+.button-wrapper {
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+}
